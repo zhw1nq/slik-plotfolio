@@ -41,6 +41,9 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        with:
+          # Tự động bật GitHub Pages nếu chưa được cấu hình
+          enablement: true
 
       - name: Install dependencies
         run: npm ci
@@ -50,10 +53,9 @@ jobs:
         env:
           # Sử dụng preset github-pages cho static site
           NITRO_PRESET: github-pages
-          # Spotify API (tùy chọn - nếu không có sẽ ẩn trang songs)
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          # Spotify API URL - Cloudflare Worker URL (bắt buộc cho GitHub Pages)
+          # Tạo Worker theo hướng dẫn trong workers/spotify-api.js
+          SPOTIFY_API_URL: ${{ secrets.SPOTIFY_API_URL }}
           # Google Analytics (tùy chọn)
           GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
           # Discord User ID (tùy chọn)

@@ -1,10 +1,6 @@
 import { defineNuxtConfig } from "nuxt/config"
-
-// Base config
 import head from "./config/head"
 
-// Xác định preset dựa trên environment variable hoặc mặc định là 'netlify'
-// Sử dụng NITRO_PRESET=github-pages khi build cho GitHub Pages
 const nitroPreset = process.env.NITRO_PRESET || "netlify"
 
 export default defineNuxtConfig({
@@ -156,12 +152,9 @@ export default defineNuxtConfig({
         userId: process.env.DISCORD_USER_ID || "1263398676345393204",
       },
       isDev: process.env.NODE_ENV === "development",
-      trustedDomains: [
-        "http://multi.7-mau.com:3000",
-      ],
+      spotifyApiUrl: process.env.SPOTIFY_API_URL || "/api/spotify",
     },
   },
-
 
   compatibilityDate: "2025-01-16",
 })

@@ -44,6 +44,12 @@ interface SpotifyResponse {
 
 const { $prepareMeta } = useNuxtApp()
 const { t } = useI18n()
+const config = useRuntimeConfig()
+
+// Sử dụng Spotify API URL từ config
+// Local: /api/spotify (Nuxt server)
+// Production (GitHub Pages): Cloudflare Worker URL
+const spotifyApiUrl = config.public.spotifyApiUrl || "/api/spotify"
 
 const {
   data: spotify,
@@ -54,7 +60,7 @@ const {
 } = await useLazyAsyncData<SpotifyResponse>(
   "spotify",
   () =>
-    $fetch("/api/spotify", {
+    $fetch(spotifyApiUrl, {
       responseType: "json",
     }),
   {
@@ -121,7 +127,7 @@ const formatListeningTime = (ms: number): string => {
 // Refresh data từ API (chỉ khi cần, không quá thường xuyên)
 const refreshSpotifyData = async () => {
   try {
-    const newData = await $fetch<SpotifyResponse>("/api/spotify", {
+    const newData = await $fetch<SpotifyResponse>(spotifyApiUrl, {
       responseType: "json",
     })
     if (newData) {

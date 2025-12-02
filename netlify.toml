@@ -1,9 +1,24 @@
-[[redirects]]
-force = true
-from = "/blog/gonderi/:slug"
-status = 301
-to = "/blog/:slug"
+# Netlify Configuration for Nuxt 3
 
+[build]
+  # Build command
+  command = "npm run build"
+  # Output directory (Nuxt 3 với nitro preset netlify)
+  publish = ".output/public"
+  # Functions directory (Nuxt 3 tự động tạo)
+  functions = ".output/server"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Redirects cho blog
+[[redirects]]
+  force = true
+  from = "/blog/gonderi/:slug"
+  status = 301
+  to = "/blog/:slug"
+
+# Development settings
 [dev]
-targetPort = 3000
-port = 9999
+  targetPort = 3000
+  port = 9999
