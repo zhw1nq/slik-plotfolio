@@ -1,0 +1,136 @@
+{
+  "nav": {},
+  "home": {
+    "hi": "こんにちは、私は",
+    "a": "a",
+    "fullStackDeveloper": "Full-Stack 開発者",
+    "gameDesigner": "ゲーム＆UI/UXデザイナー",
+    "fullStackDev": "Full-Stack 開発",
+    "gameDev": "ゲーム開発＆デザイン"
+  },
+  "pages": {
+    "home": {
+      "title": "ホーム"
+    },
+    "songs": {
+      "title": "楽曲",
+      "metaDescription": "最近聴いた楽曲と最も再生した楽曲。",
+      "description": "Spotifyでの最新の音楽視聴活動。",
+      "notConfigured": {
+        "title": "Spotifyが設定されていません",
+        "message": "Spotifyからの音楽情報を表示するには、環境変数に認証情報を設定してください。",
+        "guide": "ガイドを参照"
+      },
+      "currentlyPlaying": "再生中",
+      "openOnSpotify": "Spotifyで開く",
+      "accountInfo": "アカウント情報",
+      "profile": "プロフィール",
+      "followers": "フォロワー",
+      "totalListeningTime": "総視聴時間",
+      "id": "ID",
+      "topSongs": "トップ楽曲（過去7日間）",
+      "topArtists": "トップアーティスト（過去4週間）",
+      "recentSongs": "最近の楽曲"
+    },
+    "repos": {
+      "title": "Github",
+      "description": "GitHub上の公開プロジェクト。",
+      "metaTitle": "GitHubリポジトリ",
+      "metaDescription": "オープンソースプロジェクトのGitHubリポジトリ。"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "ご質問がございましたら、お気軽にお問い合わせください。",
+      "metaDescription": "ソーシャルメディアアカウントとメールアドレスからお問い合わせください！",
+      "twitter": "Twitterでフォローしてください！",
+      "github": "GitHubでフォローしてください！",
+      "linkedIn": "LinkedInでつながりましょう！",
+      "email": "メール",
+      "sendEmail": "メールを送信してください！"
+    },
+    "donate": {
+      "title": "寄付",
+      "description": "私のプロジェクトや活動を気に入っていただき、貢献したい場合は、このページの情報を使用して寄付していただけます！ありがとうございます ♥",
+      "metaDescription": "パフォーマンスを向上させ、将来より多くの優れたプロジェクトを作成するために私をスポンサーしてください！",
+      "supportMe": "以下でサポート",
+      "sponsors": "スポンサー",
+      "error": "エラーが発生しました。",
+      "noSponsors": "まだスポンサーがいません :(",
+      "vietqr": {
+        "title": "VietQR経由で寄付",
+        "donationMessage": "作者をサポート",
+        "bank": "銀行",
+        "accountNumber": "口座番号",
+        "accountName": "口座名義人",
+        "supportMessage": "私の創造的な旅をサポートしてください！あなたの貢献は、私が素晴らしいコンテンツを作り続けるのに役立ちます。",
+        "quickAmount": "クイック金額",
+        "customAmount": "カスタム金額（VND）",
+        "message": "メッセージ",
+        "amountPlaceholder": "金額を入力",
+        "messagePlaceholder": "サポートメッセージを追加...",
+        "steps": {
+          "title": "支払い手順",
+          "openApp": {
+            "title": "銀行アプリを開く",
+            "description": "スマートフォンで銀行アプリを開く"
+          },
+          "scanQr": {
+            "title": "QRコードをスキャン",
+            "description": "QR決済を選択し、上記のコードをスキャン"
+          },
+          "confirm": {
+            "title": "確認",
+            "description": "情報を確認し、取引を完了"
+          }
+        }
+      },
+      "crypto": {
+        "title": "暗号通貨経由で寄付",
+        "walletAddress": "ウォレットアドレス",
+        "minimum": "最小額",
+        "copyAddress": "アドレスをコピー",
+        "copied": "コピーしました！"
+      },
+      "platforms": {
+        "title": "プラットフォームでサポート"
+      }
+    }
+  },
+  "footer": {
+    "openSource": "このウェブサイトはGitHubでオープンソースです",
+    "pages": "ページ",
+    "links": "リンク",
+    "legal": "法的情報",
+    "company": {
+      "name": "vhming.com",
+      "description": "情熱的なフルスタック開発者兼ゲームデザイナー。モダンなWeb技術とクリエイティブなデザインでデジタル体験を創造しています。",
+      "email": "メール",
+      "phone": "電話",
+      "github": "GitHub",
+      "copyright": "© 2007 - 現在。全著作権所有。",
+      "website": "zhw1nq/vhming.com",
+      "locationVN": "ベトナム、クアンニン省、モンカイ市第1区",
+      "locationCN": "中国、広西チワン族自治区、東興市",
+      "timezoneUTC7": "UTC+7",
+      "timezoneUTC8": "UTC+8"
+    },
+    "discord": {
+      "activity": "Discordアクティビティ",
+      "contact": "Discordでつながりましょう",
+      "listening": "再生中",
+      "playing": "プレイ中",
+      "watching": "視聴中",
+      "streaming": "ストリーミング中",
+      "custom": "カスタムステータス",
+      "online": "オンライン",
+      "idle": "アイドル",
+      "dnd": "取り込み中",
+      "offline": "オフライン"
+    }
+  },
+  "notification": {
+    "title": "通知",
+    "message": "これはサンプル通知です。必要に応じてこのコンテンツを更新できます。"
+  }
+}
+

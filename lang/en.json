@@ -1,0 +1,136 @@
+{
+  "nav": {},
+  "home": {
+    "hi": "Hi, I am",
+    "a": "a",
+    "fullStackDeveloper": "Full-Stack Developer",
+    "gameDesigner": "Game & UI/UX Designer",
+    "fullStackDev": "Full-Stack Development",
+    "gameDev": "Game Development & Design"
+  },
+  "pages": {
+    "home": {
+      "title": "Home"
+    },
+    "songs": {
+      "title": "Songs",
+      "metaDescription": "Recent songs I've listened to and my most played songs.",
+      "description": "My latest music listening activity on Spotify.",
+      "notConfigured": {
+        "title": "Spotify not configured",
+        "message": "To display music information from Spotify, please configure credentials in environment variables.",
+        "guide": "See guide in"
+      },
+      "currentlyPlaying": "Currently Playing",
+      "openOnSpotify": "Open on Spotify",
+      "accountInfo": "Account Information",
+      "profile": "Profile",
+      "followers": "Followers",
+      "totalListeningTime": "Total Listening Time",
+      "id": "ID",
+      "topSongs": "Top Songs (last 7 days)",
+      "topArtists": "Top Artists (last 4 weeks)",
+      "recentSongs": "Recent Songs"
+    },
+    "repos": {
+      "title": "Github",
+      "description": "My public projects on GitHub.",
+      "metaTitle": "GitHub Repositories",
+      "metaDescription": "My open-source projects' GitHub repositories."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "If you have any questions, feel free to contact me.",
+      "metaDescription": "Get in touch with me via my social media accounts and e-mail address!",
+      "twitter": "Follow me on Twitter!",
+      "github": "Follow me on GitHub!",
+      "linkedIn": "Connect with me on LinkedIn!",
+      "email": "Email",
+      "sendEmail": "Send me an email!"
+    },
+    "donate": {
+      "title": "Donate",
+      "description": "If you like my projects and/or what I do and you want to contribute, make me happy, you can donate to me with the information on this page! Thank you ♥",
+      "metaDescription": "Sponsor to me to boost my performance and help me create more, better projects in the future!",
+      "supportMe": "Support Me On",
+      "sponsors": "Sponsors",
+      "error": "An error occured.",
+      "noSponsors": "No sponsors yet :(",
+      "vietqr": {
+        "title": "Donate via VietQR",
+        "donationMessage": "Support the author",
+        "bank": "Bank",
+        "accountNumber": "Account Number",
+        "accountName": "Account Holder",
+        "supportMessage": "Please support my creative journey! Your contribution helps me continue creating amazing content.",
+        "quickAmount": "Quick Amount",
+        "customAmount": "Custom Amount (VND)",
+        "message": "Message",
+        "amountPlaceholder": "Enter amount",
+        "messagePlaceholder": "Add a support message...",
+        "steps": {
+          "title": "Payment Instructions",
+          "openApp": {
+            "title": "Open Banking App",
+            "description": "Open your banking app on your phone"
+          },
+          "scanQr": {
+            "title": "Scan QR Code",
+            "description": "Select QR payment and scan the code above"
+          },
+          "confirm": {
+            "title": "Confirm",
+            "description": "Check the information and complete the transaction"
+          }
+        }
+      },
+      "crypto": {
+        "title": "Donate via Crypto",
+        "walletAddress": "Wallet Address",
+        "minimum": "Minimum",
+        "copyAddress": "Copy address",
+        "copied": "Copied!"
+      },
+      "platforms": {
+        "title": "Support on Platforms"
+      }
+    }
+  },
+  "footer": {
+    "openSource": "This website is open-source on GitHub",
+    "pages": "Pages",
+    "links": "Links",
+    "legal": "Legal",
+    "company": {
+      "name": "vhming.com",
+      "description": "A passionate full-stack developer and game designer, crafting digital experiences with modern web technologies and creative design.",
+      "email": "Email",
+      "phone": "Phone",
+      "github": "GitHub",
+      "copyright": "© 2007 - Present. All rights reserved.",
+      "website": "zhw1nq/vhming.com",
+      "locationVN": "Mong Cai Ward 1, Quang Ninh Province, Vietnam",
+      "locationCN": "Dongxing, Guangxi, China",
+      "timezoneUTC7": "UTC+7",
+      "timezoneUTC8": "UTC+8"
+    },
+    "discord": {
+      "activity": "Discord Activity",
+      "contact": "Connect with me on Discord",
+      "listening": "Listening to",
+      "playing": "Playing",
+      "watching": "Watching",
+      "streaming": "Streaming",
+      "custom": "Custom Status",
+      "online": "Online",
+      "idle": "Idle",
+      "dnd": "Do Not Disturb",
+      "offline": "Offline"
+    }
+  },
+  "notification": {
+    "title": "Notification",
+    "message": "This is a sample notification. You can update this content according to your needs."
+  }
+}
+

@@ -1,0 +1,51 @@
+@use "body.scss";
+@use "scrollbar.scss";
+@use "transitions.scss";
+
+.devicon-typescript-plain,
+.devicon-react-original,
+.devicon-vuejs-plain,
+.devicon-tailwindcss-plain,
+.devicon-nodejs-plain,
+.devicon-nodejs-line,
+.devicon-docker-plain,
+.devicon-git-plain,
+.devicon-nextjs-plain,
+.devicon-nuxt-original,
+.devicon-threejs-original,
+.devicon-express-original,
+.devicon-unity-plain,
+.devicon-github-original,
+.devicon-mysql-original,
+.devicon-amazonwebservices-plain-wordmark,
+.devicon-lua-plain,
+.devicon-csharp-plain,
+.devicon-sourceengine-plain,
+.devicon-illustrator-plain,
+.devicon-photoshop-plain {
+  color: rgb(0 0 0);
+}
+
+.dark .devicon-typescript-plain,
+.dark .devicon-react-original,
+.dark .devicon-vuejs-plain,
+.dark .devicon-tailwindcss-plain,
+.dark .devicon-nodejs-plain,
+.dark .devicon-nodejs-line,
+.dark .devicon-docker-plain,
+.dark .devicon-git-plain,
+.dark .devicon-nextjs-plain,
+.dark .devicon-nuxt-original,
+.dark .devicon-threejs-original,
+.dark .devicon-express-original,
+.dark .devicon-unity-plain,
+.dark .devicon-github-original,
+.dark .devicon-mysql-original,
+.dark .devicon-amazonwebservices-plain-wordmark,
+.dark .devicon-lua-plain,
+.dark .devicon-csharp-plain,
+.dark .devicon-sourceengine-plain,
+.dark .devicon-illustrator-plain,
+.dark .devicon-photoshop-plain {
+  color: rgb(255 255 255);
+}

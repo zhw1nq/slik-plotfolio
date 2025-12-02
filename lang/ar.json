@@ -1,0 +1,136 @@
+{
+  "nav": {},
+  "home": {
+    "hi": "مرحباً، أنا",
+    "a": "a",
+    "fullStackDeveloper": "مطور Full-Stack",
+    "gameDesigner": "مصمم ألعاب و UI/UX",
+    "fullStackDev": "تطوير Full-Stack",
+    "gameDev": "تطوير وتصميم الألعاب"
+  },
+  "pages": {
+    "home": {
+      "title": "الرئيسية"
+    },
+    "songs": {
+      "title": "الأغاني",
+      "metaDescription": "الأغاني التي استمعت إليها مؤخراً وأكثر الأغاني التي شغّلتُها.",
+      "description": "أحدث نشاطاتي في الاستماع للموسيقى على Spotify.",
+      "notConfigured": {
+        "title": "Spotify غير مُكوّن",
+        "message": "لعرض معلومات الموسيقى من Spotify، يرجى تكوين بيانات الاعتماد في متغيرات البيئة.",
+        "guide": "انظر الدليل في"
+      },
+      "currentlyPlaying": "قيد التشغيل",
+      "openOnSpotify": "فتح على Spotify",
+      "accountInfo": "معلومات الحساب",
+      "profile": "الملف الشخصي",
+      "followers": "المتابعون",
+      "totalListeningTime": "إجمالي وقت الاستماع",
+      "id": "ID",
+      "topSongs": "أفضل الأغاني (آخر 7 أيام)",
+      "topArtists": "أفضل الفنانين (آخر 4 أسابيع)",
+      "recentSongs": "الأغاني الأخيرة"
+    },
+    "repos": {
+      "title": "Github",
+      "description": "مشاريعي العامة على GitHub.",
+      "metaTitle": "مستودعات GitHub",
+      "metaDescription": "مستودعات GitHub لمشاريعي مفتوحة المصدر."
+    },
+    "contact": {
+      "title": "اتصل",
+      "description": "إذا كان لديك أي أسئلة، لا تتردد في الاتصال بي.",
+      "metaDescription": "تواصل معي عبر حساباتي على وسائل التواصل الاجتماعي وعنوان بريدي الإلكتروني!",
+      "twitter": "تابعني على Twitter!",
+      "github": "تابعني على GitHub!",
+      "linkedIn": "تواصل معي على LinkedIn!",
+      "email": "البريد الإلكتروني",
+      "sendEmail": "أرسل لي بريداً إلكترونياً!"
+    },
+    "donate": {
+      "title": "تبرع",
+      "description": "إذا أعجبتك مشاريعي و/أو ما أفعله وتريد المساهمة، اجعلني سعيداً، يمكنك التبرع لي باستخدام المعلومات على هذه الصفحة! شكراً ♥",
+      "metaDescription": "ارعني لتعزيز أدائي ومساعدتي في إنشاء المزيد من المشاريع الأفضل في المستقبل!",
+      "supportMe": "ادعمني على",
+      "sponsors": "الرعاة",
+      "error": "حدث خطأ.",
+      "noSponsors": "لا يوجد رعاة بعد :(",
+      "vietqr": {
+        "title": "التبرع عبر VietQR",
+        "donationMessage": "دعم المؤلف",
+        "bank": "البنك",
+        "accountNumber": "رقم الحساب",
+        "accountName": "صاحب الحساب",
+        "supportMessage": "يرجى دعم رحلتي الإبداعية! مساهمتك تساعدني على الاستمرار في إنشاء محتوى رائع.",
+        "quickAmount": "المبلغ السريع",
+        "customAmount": "المبلغ المخصص (VND)",
+        "message": "الرسالة",
+        "amountPlaceholder": "أدخل المبلغ",
+        "messagePlaceholder": "أضف رسالة دعم...",
+        "steps": {
+          "title": "تعليمات الدفع",
+          "openApp": {
+            "title": "افتح تطبيق البنك",
+            "description": "افتح تطبيق البنك على هاتفك"
+          },
+          "scanQr": {
+            "title": "امسح رمز QR",
+            "description": "اختر الدفع QR وامسح الرمز أعلاه"
+          },
+          "confirm": {
+            "title": "تأكيد",
+            "description": "تحقق من المعلومات وأكمل المعاملة"
+          }
+        }
+      },
+      "crypto": {
+        "title": "التبرع عبر العملات المشفرة",
+        "walletAddress": "عنوان المحفظة",
+        "minimum": "الحد الأدنى",
+        "copyAddress": "نسخ العنوان",
+        "copied": "تم النسخ!"
+      },
+      "platforms": {
+        "title": "الدعم على المنصات"
+      }
+    }
+  },
+  "footer": {
+    "openSource": "هذا الموقع مفتوح المصدر على GitHub",
+    "pages": "الصفحات",
+    "links": "الروابط",
+    "legal": "قانوني",
+    "company": {
+      "name": "vhming.com",
+      "description": "مطور full-stack ومصمم ألعاب شغوف، يصنع تجارب رقمية باستخدام تقنيات الويب الحديثة والتصميم الإبداعي.",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "github": "GitHub",
+      "copyright": "© 2007 - الحاضر. جميع الحقوق محفوظة.",
+      "website": "zhw1nq/vhming.com",
+      "locationVN": "حي منغ كاي 1، مقاطعة كوانغ نينه، فيتنام",
+      "locationCN": "دونغشينغ، قوانغشي، الصين",
+      "timezoneUTC7": "UTC+7",
+      "timezoneUTC8": "UTC+8"
+    },
+    "discord": {
+      "activity": "نشاط Discord",
+      "contact": "تواصل معي على Discord",
+      "listening": "يستمع إلى",
+      "playing": "يلعب",
+      "watching": "يشاهد",
+      "streaming": "يبث",
+      "custom": "حالة مخصصة",
+      "online": "متصل",
+      "idle": "خامل",
+      "dnd": "عدم الإزعاج",
+      "offline": "غير متصل"
+    }
+  },
+  "notification": {
+    "title": "إشعار",
+    "message": "هذا إشعار نموذجي. يمكنك تحديث هذا المحتوى وفقاً لاحتياجاتك."
+  }
+}
+

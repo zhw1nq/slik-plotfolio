@@ -1,0 +1,136 @@
+{
+  "nav": {},
+  "home": {
+    "hi": "Halo, saya",
+    "a": "seorang",
+    "fullStackDeveloper": "Pengembang Full-Stack",
+    "gameDesigner": "Desainer Game & UI/UX",
+    "fullStackDev": "Pengembangan Full-Stack",
+    "gameDev": "Pengembangan & Desain Game"
+  },
+  "pages": {
+    "home": {
+      "title": "Beranda"
+    },
+    "songs": {
+      "title": "Lagu",
+      "metaDescription": "Lagu yang baru saja saya dengar dan lagu yang paling sering saya putar.",
+      "description": "Aktivitas mendengarkan musik terbaru saya di Spotify.",
+      "notConfigured": {
+        "title": "Spotify belum dikonfigurasi",
+        "message": "Untuk menampilkan informasi musik dari Spotify, harap konfigurasi kredensial di environment variables.",
+        "guide": "Lihat panduan di"
+      },
+      "currentlyPlaying": "Sedang Diputar",
+      "openOnSpotify": "Buka di Spotify",
+      "accountInfo": "Informasi Akun",
+      "profile": "Profil",
+      "followers": "Pengikut",
+      "totalListeningTime": "Total Waktu Mendengarkan",
+      "id": "ID",
+      "topSongs": "Lagu Teratas (7 hari terakhir)",
+      "topArtists": "Artis Teratas (4 minggu terakhir)",
+      "recentSongs": "Lagu Terbaru"
+    },
+    "repos": {
+      "title": "Github",
+      "description": "Proyek publik saya di GitHub.",
+      "metaTitle": "Repositori GitHub",
+      "metaDescription": "Repositori GitHub dari proyek open-source saya."
+    },
+    "contact": {
+      "title": "Kontak",
+      "description": "Jika Anda memiliki pertanyaan, jangan ragu untuk menghubungi saya.",
+      "metaDescription": "Hubungi saya melalui akun media sosial dan alamat email saya!",
+      "twitter": "Ikuti saya di Twitter!",
+      "github": "Ikuti saya di GitHub!",
+      "linkedIn": "Terhubung dengan saya di LinkedIn!",
+      "email": "Email",
+      "sendEmail": "Kirim email kepada saya!"
+    },
+    "donate": {
+      "title": "Donasi",
+      "description": "Jika Anda menyukai proyek saya dan/atau apa yang saya lakukan dan Anda ingin berkontribusi, membuat saya bahagia, Anda dapat menyumbang kepada saya dengan informasi di halaman ini! Terima kasih ♥",
+      "metaDescription": "Sponsor saya untuk meningkatkan kinerja saya dan membantu saya membuat lebih banyak, proyek yang lebih baik di masa depan!",
+      "supportMe": "Dukung Saya Di",
+      "sponsors": "Sponsor",
+      "error": "Terjadi kesalahan.",
+      "noSponsors": "Belum ada sponsor :(",
+      "vietqr": {
+        "title": "Donasi via VietQR",
+        "donationMessage": "Dukung penulis",
+        "bank": "Bank",
+        "accountNumber": "Nomor Rekening",
+        "accountName": "Pemegang Akun",
+        "supportMessage": "Silakan dukung perjalanan kreatif saya! Kontribusi Anda membantu saya terus membuat konten yang luar biasa.",
+        "quickAmount": "Jumlah Cepat",
+        "customAmount": "Jumlah Kustom (VND)",
+        "message": "Pesan",
+        "amountPlaceholder": "Masukkan jumlah",
+        "messagePlaceholder": "Tambahkan pesan dukungan...",
+        "steps": {
+          "title": "Instruksi Pembayaran",
+          "openApp": {
+            "title": "Buka Aplikasi Perbankan",
+            "description": "Buka aplikasi perbankan Anda di ponsel"
+          },
+          "scanQr": {
+            "title": "Pindai Kode QR",
+            "description": "Pilih pembayaran QR dan pindai kode di atas"
+          },
+          "confirm": {
+            "title": "Konfirmasi",
+            "description": "Periksa informasi dan selesaikan transaksi"
+          }
+        }
+      },
+      "crypto": {
+        "title": "Donasi via Crypto",
+        "walletAddress": "Alamat Dompet",
+        "minimum": "Minimum",
+        "copyAddress": "Salin alamat",
+        "copied": "Disalin!"
+      },
+      "platforms": {
+        "title": "Dukungan di Platform"
+      }
+    }
+  },
+  "footer": {
+    "openSource": "Situs web ini open-source di GitHub",
+    "pages": "Halaman",
+    "links": "Tautan",
+    "legal": "Hukum",
+    "company": {
+      "name": "vhming.com",
+      "description": "Pengembang full-stack dan desainer game yang penuh semangat, menciptakan pengalaman digital dengan teknologi web modern dan desain kreatif.",
+      "email": "Email",
+      "phone": "Telepon",
+      "github": "GitHub",
+      "copyright": "© 2007 - Sekarang. Hak cipta dilindungi.",
+      "website": "zhw1nq/vhming.com",
+      "locationVN": "Kelurahan Mong Cai 1, Provinsi Quang Ninh, Vietnam",
+      "locationCN": "Dongxing, Guangxi, Tiongkok",
+      "timezoneUTC7": "UTC+7",
+      "timezoneUTC8": "UTC+8"
+    },
+    "discord": {
+      "activity": "Aktivitas Discord",
+      "contact": "Terhubung dengan saya di Discord",
+      "listening": "Mendengarkan",
+      "playing": "Bermain",
+      "watching": "Menonton",
+      "streaming": "Streaming",
+      "custom": "Status Kustom",
+      "online": "Online",
+      "idle": "Menganggur",
+      "dnd": "Jangan Ganggu",
+      "offline": "Offline"
+    }
+  },
+  "notification": {
+    "title": "Notifikasi",
+    "message": "Ini adalah notifikasi contoh. Anda dapat memperbarui konten ini sesuai kebutuhan Anda."
+  }
+}
+

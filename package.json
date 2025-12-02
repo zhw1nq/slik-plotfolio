@@ -1,0 +1,70 @@
+{
+  "private": true,
+  "license": "MIT",
+  "version": "7.0.0",
+  "homepage": "https://vhming.com",
+  "readme": "https://github.com/zhw1nq/website#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "author": {
+    "name": "zhw1nq",
+    "email": "zhw1nq@gmail.com",
+    "url": "https://vhming.com"
+  },
+  "bugs": {
+    "email": "zhw1nq@gmail.com",
+    "url": "https://github.com/zhw1nq/website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhw1nq/website.git"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://vhming.com/me/donate"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/zhw1nq"
+    }
+  ],
+  "scripts": {
+    "dev": "nuxi dev --host 0.0.0.0",
+    "build": "nuxi build",
+    "start": "nuxi start",
+    "generate": "nuxi generate",
+    "build-sqlite": "node scripts/build-sqlite.js",
+    "clean-db": "node scripts/clean-db.js",
+    "migrate-db": "node scripts/migrate-db.js"
+  },
+  "dependencies": {
+    "@nuxt/icon": "latest",
+    "@nuxtjs/color-mode": "latest",
+    "@nuxtjs/robots": "latest",
+    "@nuxtjs/sitemap": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "medium-zoom": "latest",
+    "nuxt": "latest",
+    "nuxt-disqus": "latest",
+    "nuxt-gtag": "latest",
+    "sass": "latest",
+    "three": "latest",
+    "vue-i18n": "latest",
+    "vue-tippy": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/devicon": "latest",
+    "@iconify-json/heroicons": "latest",
+    "@iconify-json/line-md": "latest",
+    "@iconify-json/mdi": "latest",
+    "@iconify-json/svg-spinners": "latest",
+    "@netlify/functions": "latest",
+    "@nuxt/kit": "latest",
+    "@nuxtjs/google-fonts": "latest",
+    "@tailwindcss/typography": "latest",
+    "@vite-pwa/nuxt": "latest",
+    "dotenv": "latest"
+  }
+}

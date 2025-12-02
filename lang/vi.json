@@ -1,0 +1,135 @@
+{
+  "nav": {},
+  "home": {
+    "hi": "Xin chào, tôi là",
+    "a": "một",
+    "fullStackDeveloper": "Lập trình viên Full-Stack",
+    "gameDesigner": "Nhà thiết kế Game & UI/UX",
+    "fullStackDev": "Phát triển Full-Stack",
+    "gameDev": "Phát triển Game & Thiết kế"
+  },
+  "pages": {
+    "home": {
+      "title": "Trang chủ"
+    },
+    "songs": {
+      "title": "Bài hát",
+      "metaDescription": "Các bài hát tôi đã nghe gần đây và các bài hát tôi nghe nhiều nhất.",
+      "description": "Hoạt động nghe nhạc mới nhất của tôi trên Spotify.",
+      "notConfigured": {
+        "title": "Spotify chưa được cấu hình",
+        "message": "Để hiển thị thông tin nghe nhạc từ Spotify, vui lòng cấu hình credentials trong environment variables.",
+        "guide": "Xem hướng dẫn trong"
+      },
+      "currentlyPlaying": "Đang nghe",
+      "openOnSpotify": "Mở trên Spotify",
+      "accountInfo": "Thông tin tài khoản",
+      "profile": "Hồ sơ",
+      "followers": "Người theo dõi",
+      "totalListeningTime": "Tổng thời gian nghe",
+      "id": "ID",
+      "topSongs": "Bài hát nổi bật (7 ngày qua)",
+      "topArtists": "Nghệ sĩ nổi bật (4 tuần qua)",
+      "recentSongs": "Bài hát gần đây"
+    },
+    "repos": {
+      "title": "Github",
+      "description": "Các dự án công khai của tôi trên GitHub.",
+      "metaTitle": "GitHub",
+      "metaDescription": "Các dự án GitHub mã nguồn mở của tôi."
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "description": "Nếu bạn có bất kỳ câu hỏi nào, đừng ngại liên hệ với tôi.",
+      "metaDescription": "Liên hệ với tôi qua các tài khoản mạng xã hội và địa chỉ email!",
+      "twitter": "Theo dõi tôi trên Twitter!",
+      "github": "Theo dõi tôi trên GitHub!",
+      "linkedIn": "Kết nối với tôi trên LinkedIn!",
+      "email": "Email",
+      "sendEmail": "Gửi email cho tôi!"
+    },
+    "donate": {
+      "title": "Sponsor",
+      "description": "Nếu bạn thích các dự án và/hoặc những gì tôi làm và muốn đóng góp, làm tôi vui, bạn có thể sponsor tôi với thông tin trên trang này! Cảm ơn bạn",
+      "metaDescription": "Sponsor tôi để tăng hiệu suất và giúp tôi tạo ra nhiều dự án tốt hơn trong tương lai!",
+      "supportMe": "Sponsor tôi trên",
+      "sponsors": "Sponsors",
+      "error": "Đã xảy ra lỗi.",
+      "noSponsors": "Chưa có sponsor nào :(",
+      "vietqr": {
+        "title": "Ủng Hộ Qua VietQR",
+        "donationMessage": "Ủng hộ tác giả",
+        "bank": "Ngân hàng",
+        "accountNumber": "Số tài khoản",
+        "accountName": "Chủ tài khoản",
+        "supportMessage": "Hãy ủng hộ hành trình sáng tạo của tôi! Sự đóng góp của bạn giúp tôi tiếp tục tạo ra những nội dung tuyệt vời.",
+        "quickAmount": "Số Tiền Nhanh",
+        "customAmount": "Số Tiền Tùy Chọn (VND)",
+        "message": "Lời Nhắn",
+        "amountPlaceholder": "Nhập số tiền",
+        "messagePlaceholder": "Thêm lời nhắn ủng hộ...",
+        "steps": {
+          "title": "Hướng Dẫn Thanh Toán",
+          "openApp": {
+            "title": "Mở Ứng Dụng Ngân Hàng",
+            "description": "Mở ứng dụng ngân hàng trên điện thoại của bạn"
+          },
+          "scanQr": {
+            "title": "Quét Mã QR",
+            "description": "Chọn thanh toán QR và quét mã ở trên"
+          },
+          "confirm": {
+            "title": "Xác Nhận",
+            "description": "Kiểm tra thông tin và hoàn tất giao dịch"
+          }
+        }
+      },
+      "crypto": {
+        "title": "Ủng Hộ Qua Crypto",
+        "walletAddress": "Địa chỉ ví",
+        "minimum": "Tối thiểu",
+        "copyAddress": "Sao chép địa chỉ",
+        "copied": "Đã sao chép!"
+      },
+      "platforms": {
+        "title": "Ủng Hộ Trên Các Nền Tảng"
+      }
+    }
+  },
+  "footer": {
+    "openSource": "Trang web này là mã nguồn mở trên GitHub",
+    "pages": "Trang",
+    "links": "Liên kết",
+    "legal": "Pháp lý",
+    "company": {
+      "name": "vhming.com",
+      "description": "Lập trình viên full-stack và nhà thiết kế game đam mê, tạo ra những trải nghiệm số với công nghệ web hiện đại và thiết kế sáng tạo.",
+      "email": "Email",
+      "phone": "Điện thoại",
+      "github": "GitHub",
+      "copyright": "© 2007 - Hiện tại. Bảo lưu mọi quyền.",
+      "website": "zhw1nq/vhming.com",
+      "locationVN": "Phường Móng Cái 1, Tỉnh Quảng Ninh, Việt Nam",
+      "locationCN": "Đông Hưng, Quảng Tây, Trung Quốc",
+      "timezoneUTC7": "UTC+7",
+      "timezoneUTC8": "UTC+8"
+    },
+    "discord": {
+      "activity": "Hoạt động Discord",
+      "contact": "Kết nối với tôi trên Discord",
+      "listening": "Đang nghe",
+      "playing": "Đang chơi",
+      "watching": "Đang xem",
+      "streaming": "Đang stream",
+      "custom": "Trạng thái tùy chỉnh",
+      "online": "Trực tuyến",
+      "idle": "Không hoạt động",
+      "dnd": "Không làm phiền",
+      "offline": "Ngoại tuyến"
+    }
+  },
+  "notification": {
+    "title": "Thông báo",
+    "message": "Đây là thông báo mẫu. Bạn có thể cập nhật nội dung này theo nhu cầu của mình."
+  }
+}

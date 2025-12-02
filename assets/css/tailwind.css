@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .responsive-screen {
+    @apply max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8 xl:px-0;
+  }
+
+  /* Safe area support for mobile devices with notches */
+  html {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+}
+
+@layer components {
+  .card-base {
+    @apply border-[0.1px] p-3 sm:p-4 bg-neutral-100 hover:bg-neutral-200/40 border-neutral-200 transition-colors dark:bg-neutral-800/30 dark:border-neutral-800/80 dark:hover:bg-neutral-800/40 dark:text-white/80 dark:hover:text-white;
+  }
+
+  .focus-ring {
+    @apply ring-offset-2 focus:outline-none focus:ring-1 ring-offset-gray-50 ring-gray-300 dark:ring-offset-neutral-900 dark:ring-neutral-800 dark:focus:ring-offset-neutral-900 dark:focus:ring-neutral-800;
+  }
+}

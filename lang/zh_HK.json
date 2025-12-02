@@ -1,0 +1,136 @@
+{
+  "nav": {},
+  "home": {
+    "hi": "你好，我是",
+    "a": "一個",
+    "fullStackDeveloper": "Full-Stack 開發者",
+    "gameDesigner": "遊戲與UI/UX設計師",
+    "fullStackDev": "Full-Stack 開發",
+    "gameDev": "遊戲開發與設計"
+  },
+  "pages": {
+    "home": {
+      "title": "首頁"
+    },
+    "songs": {
+      "title": "歌曲",
+      "metaDescription": "我最近聽的歌曲和我播放最多的歌曲。",
+      "description": "我在Spotify上的最新音樂收聽活動。",
+      "notConfigured": {
+        "title": "Spotify未配置",
+        "message": "要顯示來自Spotify的音樂資訊，請在環境變數中配置憑證。",
+        "guide": "查看指南"
+      },
+      "currentlyPlaying": "正在播放",
+      "openOnSpotify": "在Spotify上開啟",
+      "accountInfo": "帳戶資訊",
+      "profile": "個人資料",
+      "followers": "追蹤者",
+      "totalListeningTime": "總收聽時間",
+      "id": "ID",
+      "topSongs": "熱門歌曲（最近7天）",
+      "topArtists": "熱門藝術家（最近4週）",
+      "recentSongs": "最近歌曲"
+    },
+    "repos": {
+      "title": "Github",
+      "description": "我在GitHub上的公開專案。",
+      "metaTitle": "GitHub儲存庫",
+      "metaDescription": "我的開源專案的GitHub儲存庫。"
+    },
+    "contact": {
+      "title": "聯絡",
+      "description": "如果您有任何問題，請隨時聯絡我。",
+      "metaDescription": "透過我的社群媒體帳戶和電子郵件地址與我聯絡！",
+      "twitter": "在Twitter上追蹤我！",
+      "github": "在GitHub上追蹤我！",
+      "linkedIn": "在LinkedIn上與我聯絡！",
+      "email": "電子郵件",
+      "sendEmail": "寄送電子郵件給我！"
+    },
+    "donate": {
+      "title": "捐贈",
+      "description": "如果您喜歡我的專案和/或我所做的事情，並且想要貢獻，讓我開心，您可以使用此頁面上的資訊向我捐贈！謝謝 ♥",
+      "metaDescription": "贊助我以提高我的表現，幫助我在未來建立更多、更好的專案！",
+      "supportMe": "在以下平台支持我",
+      "sponsors": "贊助商",
+      "error": "發生錯誤。",
+      "noSponsors": "還沒有贊助商 :(",
+      "vietqr": {
+        "title": "透過VietQR捐贈",
+        "donationMessage": "支持作者",
+        "bank": "銀行",
+        "accountNumber": "帳號",
+        "accountName": "帳戶持有人",
+        "supportMessage": "請支持我的創作之旅！您的貢獻幫助我繼續創作精彩內容。",
+        "quickAmount": "快速金額",
+        "customAmount": "自訂金額（VND）",
+        "message": "留言",
+        "amountPlaceholder": "輸入金額",
+        "messagePlaceholder": "添加支持留言...",
+        "steps": {
+          "title": "支付說明",
+          "openApp": {
+            "title": "打開銀行應用",
+            "description": "在手機上打開您的銀行應用"
+          },
+          "scanQr": {
+            "title": "掃描二維碼",
+            "description": "選擇二維碼支付並掃描上方的代碼"
+          },
+          "confirm": {
+            "title": "確認",
+            "description": "檢查資訊並完成交易"
+          }
+        }
+      },
+      "crypto": {
+        "title": "透過加密貨幣捐贈",
+        "walletAddress": "錢包地址",
+        "minimum": "最低",
+        "copyAddress": "複製地址",
+        "copied": "已複製！"
+      },
+      "platforms": {
+        "title": "在平台上支持"
+      }
+    }
+  },
+  "footer": {
+    "openSource": "本網站在GitHub上開源",
+    "pages": "頁面",
+    "links": "連結",
+    "legal": "法律",
+    "company": {
+      "name": "vhming.com",
+      "description": "充滿熱情的全端開發者和遊戲設計師，運用現代Web技術和創意設計打造數位體驗。",
+      "email": "電子郵件",
+      "phone": "電話",
+      "github": "GitHub",
+      "copyright": "© 2007 - 至今。保留所有權利。",
+      "website": "zhw1nq/vhming.com",
+      "locationVN": "越南廣寧省芒街市第一坊",
+      "locationCN": "中國廣西東興",
+      "timezoneUTC7": "UTC+7",
+      "timezoneUTC8": "UTC+8"
+    },
+    "discord": {
+      "activity": "Discord活動",
+      "contact": "在Discord上與我聯繫",
+      "listening": "正在聽",
+      "playing": "正在玩",
+      "watching": "正在觀看",
+      "streaming": "正在直播",
+      "custom": "自訂狀態",
+      "online": "線上",
+      "idle": "閒置",
+      "dnd": "請勿打擾",
+      "offline": "離線"
+    }
+  },
+  "notification": {
+    "title": "通知",
+    "message": "這是一個範例通知。您可以根據需要更新此內容。"
+  }
+}
+

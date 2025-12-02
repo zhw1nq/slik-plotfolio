@@ -1,0 +1,136 @@
+{
+  "nav": {},
+  "home": {
+    "hi": "Hallo, ich bin",
+    "a": "ein",
+    "fullStackDeveloper": "Full-Stack Entwickler",
+    "gameDesigner": "Spiel- & UI/UX Designer",
+    "fullStackDev": "Full-Stack Entwicklung",
+    "gameDev": "Spielentwicklung & Design"
+  },
+  "pages": {
+    "home": {
+      "title": "Startseite"
+    },
+    "songs": {
+      "title": "Lieder",
+      "metaDescription": "Kürzlich gehörte Lieder und meine meistgespielten Lieder.",
+      "description": "Meine neueste Musik-Höraktivität auf Spotify.",
+      "notConfigured": {
+        "title": "Spotify nicht konfiguriert",
+        "message": "Um Musikinformationen von Spotify anzuzeigen, bitte Anmeldedaten in Umgebungsvariablen konfigurieren.",
+        "guide": "Siehe Anleitung in"
+      },
+      "currentlyPlaying": "Wird gerade abgespielt",
+      "openOnSpotify": "Auf Spotify öffnen",
+      "accountInfo": "Kontoinformationen",
+      "profile": "Profil",
+      "followers": "Follower",
+      "totalListeningTime": "Gesamte Hörzeit",
+      "id": "ID",
+      "topSongs": "Top Lieder (letzte 7 Tage)",
+      "topArtists": "Top Künstler (letzte 4 Wochen)",
+      "recentSongs": "Kürzliche Lieder"
+    },
+    "repos": {
+      "title": "Github",
+      "description": "Meine öffentlichen Projekte auf GitHub.",
+      "metaTitle": "GitHub Repositories",
+      "metaDescription": "GitHub Repositories meiner Open-Source-Projekte."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Wenn Sie Fragen haben, kontaktieren Sie mich gerne.",
+      "metaDescription": "Kontaktieren Sie mich über meine Social-Media-Konten und E-Mail-Adresse!",
+      "twitter": "Folgen Sie mir auf Twitter!",
+      "github": "Folgen Sie mir auf GitHub!",
+      "linkedIn": "Verbinden Sie sich mit mir auf LinkedIn!",
+      "email": "E-Mail",
+      "sendEmail": "Senden Sie mir eine E-Mail!"
+    },
+    "donate": {
+      "title": "Spenden",
+      "description": "Wenn Ihnen meine Projekte und/oder das, was ich tue, gefällt und Sie beitragen möchten, mich glücklich machen, können Sie mir mit den Informationen auf dieser Seite spenden! Danke ♥",
+      "metaDescription": "Sponsern Sie mich, um meine Leistung zu steigern und mir zu helfen, in Zukunft mehr, bessere Projekte zu erstellen!",
+      "supportMe": "Unterstützen Sie mich auf",
+      "sponsors": "Sponsoren",
+      "error": "Ein Fehler ist aufgetreten.",
+      "noSponsors": "Noch keine Sponsoren :(",
+      "vietqr": {
+        "title": "Spenden über VietQR",
+        "donationMessage": "Den Autor unterstützen",
+        "bank": "Bank",
+        "accountNumber": "Kontonummer",
+        "accountName": "Kontoinhaber",
+        "supportMessage": "Bitte unterstützen Sie meine kreative Reise! Ihr Beitrag hilft mir, weiterhin großartige Inhalte zu erstellen.",
+        "quickAmount": "Schnellbetrag",
+        "customAmount": "Benutzerdefinierter Betrag (VND)",
+        "message": "Nachricht",
+        "amountPlaceholder": "Betrag eingeben",
+        "messagePlaceholder": "Eine Unterstützungsnachricht hinzufügen...",
+        "steps": {
+          "title": "Zahlungsanweisungen",
+          "openApp": {
+            "title": "Banking-App öffnen",
+            "description": "Öffnen Sie Ihre Banking-App auf Ihrem Telefon"
+          },
+          "scanQr": {
+            "title": "QR-Code scannen",
+            "description": "Wählen Sie QR-Zahlung und scannen Sie den Code oben"
+          },
+          "confirm": {
+            "title": "Bestätigen",
+            "description": "Überprüfen Sie die Informationen und schließen Sie die Transaktion ab"
+          }
+        }
+      },
+      "crypto": {
+        "title": "Spenden über Kryptowährung",
+        "walletAddress": "Wallet-Adresse",
+        "minimum": "Minimum",
+        "copyAddress": "Adresse kopieren",
+        "copied": "Kopiert!"
+      },
+      "platforms": {
+        "title": "Unterstützung auf Plattformen"
+      }
+    }
+  },
+  "footer": {
+    "openSource": "Diese Website ist Open-Source auf GitHub",
+    "pages": "Seiten",
+    "links": "Links",
+    "legal": "Rechtliches",
+    "company": {
+      "name": "vhming.com",
+      "description": "Leidenschaftlicher Full-Stack-Entwickler und Spieldesigner, der digitale Erlebnisse mit modernen Web-Technologien und kreativem Design schafft.",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "github": "GitHub",
+      "copyright": "© 2007 - Heute. Alle Rechte vorbehalten.",
+      "website": "zhw1nq/vhming.com",
+      "locationVN": "Mong Cai Bezirk 1, Provinz Quang Ninh, Vietnam",
+      "locationCN": "Dongxing, Guangxi, China",
+      "timezoneUTC7": "UTC+7",
+      "timezoneUTC8": "UTC+8"
+    },
+    "discord": {
+      "activity": "Discord Aktivität",
+      "contact": "Verbinden Sie sich mit mir auf Discord",
+      "listening": "Hört zu",
+      "playing": "Spielt",
+      "watching": "Schaut",
+      "streaming": "Streamt",
+      "custom": "Benutzerdefinierter Status",
+      "online": "Online",
+      "idle": "Untätig",
+      "dnd": "Bitte nicht stören",
+      "offline": "Offline"
+    }
+  },
+  "notification": {
+    "title": "Benachrichtigung",
+    "message": "Dies ist eine Beispielbenachrichtigung. Sie können diesen Inhalt nach Ihren Bedürfnissen aktualisieren."
+  }
+}
+
