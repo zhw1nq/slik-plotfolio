@@ -1,7 +1,7 @@
 import { defineNuxtConfig } from "nuxt/config"
 import head from "./config/head"
 
-const nitroPreset = process.env.NITRO_PRESET || "netlify"
+const nitroPreset = process.env.NITRO_PRESET || "vercel"
 
 export default defineNuxtConfig({
   nitro: {
