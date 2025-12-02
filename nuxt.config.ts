@@ -3,9 +3,13 @@ import { defineNuxtConfig } from "nuxt/config"
 // Base config
 import head from "./config/head"
 
+// Xác định preset dựa trên environment variable hoặc mặc định là 'netlify'
+// Sử dụng NITRO_PRESET=github-pages khi build cho GitHub Pages
+const nitroPreset = process.env.NITRO_PRESET || "netlify"
+
 export default defineNuxtConfig({
   nitro: {
-    preset: "netlify",
+    preset: nitroPreset,
     experimental: {
       trustedProxy: true,
     },
